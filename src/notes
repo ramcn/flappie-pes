@@ -1,0 +1,5 @@
+- Add new num files in utils.h.
+- num_files = 1 and validate using same code 
+- add new struct def and functions in flappie_matrix.h and c. using an array of pointers typedef _Mat *flappie_matrix[num_files];
+- add array version of make, remake, free and other routines called in code flow from calculate_pos to grumod_step.
+- main functions to replace with array convolution, ff linear, forward and backward
