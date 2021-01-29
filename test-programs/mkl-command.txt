@@ -1,0 +1,2 @@
+source /opt/intel/bin/compilervars.sh intel64
+g++ -L${MKLROOT}/lib/intel64 -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_tbb_thread -lmkl_core -ltbb -lstdc++ -lpthread -lm -ldl
